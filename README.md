@@ -1,4 +1,4 @@
-<h1 align="center">AstroVim</h1>
+<h1 align="center">AtroVim</h1>
 
 <div align="center"><p>
     <a href="https://github.com/kabinspace/AstroVim/pulse">
@@ -17,11 +17,11 @@
 </div>
 
 <p align="center">
-AstroVim is an aesthetic and feature-rich neovim config that is extensible and easy to use with a great set of plugins
+AtroVim is an aesthetic and feature-rich neovim config that is extensible and easy to use with a great set of plugins. This config is forked from kabinspace/AstroVim (Thanks!)
 </p>
 
 ## 🌟 Preview
-![Preview1](./utils/media/preview1.png)
+![Preview1](./utils/media/preview4.png)
 ![Preview2](./utils/media/preview2.png)
 ![Preview33](./utils/media/preview3.png)
 
