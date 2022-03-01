@@ -17,6 +17,7 @@ local config = {
     -- require("lsp_signature").setup()
     -- end,
     -- },
+    { "tpope/vim-fugitive" },
   },
 
   overrides = {
