@@ -53,6 +53,7 @@ local config = {
 
 -- Set options
 set.relativenumber = true
+-- set.cursorcolumn = true
 
 -- Set key bindings
 map("n", "<C-s>", ":w!<CR>", opts)
