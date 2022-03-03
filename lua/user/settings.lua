@@ -1,5 +1,4 @@
-local opts = { noremap = true, silent = true }
-local map = vim.api.nvim_set_keymap
+local opts = { noremap = true, silent = true } local map = vim.api.nvim_set_keymap
 local set = vim.opt
 
 local config = {
@@ -18,6 +17,7 @@ local config = {
     -- end,
     -- },
     { "tpope/vim-fugitive" },
+    { "sindrets/diffview.nvim" },
   },
 
   overrides = {
@@ -57,6 +57,9 @@ set.relativenumber = true
 
 -- Set key bindings
 map("n", "<C-s>", ":w!<CR>", opts)
+map("n", ";", ":DiffviewOpen", opts)
+map("n", "<C-i>", ":DiffviewFileHistory<CR>", opts)
+map("n", "\\", ":tabclose<CR>", opts)
 
 -- Set autocommands
 vim.cmd [[
