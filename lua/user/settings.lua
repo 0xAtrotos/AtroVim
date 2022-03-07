@@ -57,7 +57,7 @@ set.relativenumber = true
 
 -- Set key bindings
 map("n", "<C-s>", ":w!<CR>", opts)
-map("n", ";", ":DiffviewOpen", opts)
+map("n", ";", ":DiffviewOpen<CR>", opts)
 map("n", "<C-i>", ":DiffviewFileHistory<CR>", opts)
 map("n", "\\", ":tabclose<CR>", opts)
 

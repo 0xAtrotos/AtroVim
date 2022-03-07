@@ -70,7 +70,7 @@ function M.config()
       },
     },
     view = {
-      width = 25,
+      width = 30,
       height = 30,
       side = "left",
       allow_resize = true,
