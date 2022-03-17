@@ -18,6 +18,7 @@ local config = {
     -- },
     { "tpope/vim-fugitive" },
     { "sindrets/diffview.nvim" },
+    {"ellisonleao/glow.nvim"},
   },
 
   overrides = {
